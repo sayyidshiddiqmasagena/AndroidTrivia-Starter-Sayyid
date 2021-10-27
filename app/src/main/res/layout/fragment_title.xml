@@ -57,5 +57,26 @@
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/android_trivia" />
 
+        <TextView
+            android:id="@+id/textView_Nama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sayyid Shiddiq Masagena"
+            app:layout_constraintBottom_toTopOf="@+id/textView_NIM"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/titleImage"
+            app:layout_constraintVertical_bias="0.688" />
+
+        <TextView
+            android:id="@+id/textView_NIM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="44dp"
+            android:text="D121191014 (Kelas A)"
+            app:layout_constraintBottom_toTopOf="@+id/playButton"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
